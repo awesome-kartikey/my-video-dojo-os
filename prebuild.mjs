@@ -166,15 +166,19 @@ function generateDurations() {
   const scenes = [];
   let totalFrames = 0;
   
+  const allowedScenes = [1, 4, 5, 6, 7, 8, 12, 13, 15, 17, 30];
+  
   for (const file of files) {
     const filePath = path.join(voiceoverDir, file);
-    const durationSec = getMp3Duration(filePath);
-    const durationFrames = Math.ceil(durationSec * 30);
     
     const match = file.match(/^scene-(\d+)-(.+)\.mp3$/);
     if (!match) continue;
     
     const sceneNum = parseInt(match[1], 10);
+    if (!allowedScenes.includes(sceneNum)) continue;
+    
+    const durationSec = getMp3Duration(filePath);
+    const durationFrames = Math.ceil(durationSec * 30);
     const sceneName = match[2];
     
     scenes.push({

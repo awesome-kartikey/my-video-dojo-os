@@ -16,20 +16,6 @@ export const SCENE_DURATIONS: SceneDuration[] = [
     "durationFrames": 1203
   },
   {
-    "num": 2,
-    "fileName": "scene-02-login.mp3",
-    "name": "login",
-    "durationSec": 22.282448979591837,
-    "durationFrames": 669
-  },
-  {
-    "num": 3,
-    "fileName": "scene-03-navigation.mp3",
-    "name": "navigation",
-    "durationSec": 64.9665306122449,
-    "durationFrames": 1949
-  },
-  {
     "num": 4,
     "fileName": "scene-04-kpis.mp3",
     "name": "kpis",
@@ -65,27 +51,6 @@ export const SCENE_DURATIONS: SceneDuration[] = [
     "durationFrames": 910
   },
   {
-    "num": 9,
-    "fileName": "scene-09-game-library.mp3",
-    "name": "game-library",
-    "durationSec": 38.45224489795918,
-    "durationFrames": 1154
-  },
-  {
-    "num": 10,
-    "fileName": "scene-10-game-play.mp3",
-    "name": "game-play",
-    "durationSec": 59.5330612244898,
-    "durationFrames": 1786
-  },
-  {
-    "num": 11,
-    "fileName": "scene-11-score.mp3",
-    "name": "score",
-    "durationSec": 57.20816326530612,
-    "durationFrames": 1717
-  },
-  {
     "num": 12,
     "fileName": "scene-12-management.mp3",
     "name": "management",
@@ -100,13 +65,6 @@ export const SCENE_DURATIONS: SceneDuration[] = [
     "durationFrames": 3383
   },
   {
-    "num": 14,
-    "fileName": "scene-14-rejections.mp3",
-    "name": "rejections",
-    "durationSec": 74.52734693877551,
-    "durationFrames": 2236
-  },
-  {
     "num": 15,
     "fileName": "scene-15-actionplans.mp3",
     "name": "actionplans",
@@ -114,102 +72,11 @@ export const SCENE_DURATIONS: SceneDuration[] = [
     "durationFrames": 4228
   },
   {
-    "num": 16,
-    "fileName": "scene-16-fab-menu.mp3",
-    "name": "fab-menu",
-    "durationSec": 15.960816326530612,
-    "durationFrames": 479
-  },
-  {
     "num": 17,
     "fileName": "scene-17-quick-attendance.mp3",
     "name": "quick-attendance",
     "durationSec": 66.08979591836734,
     "durationFrames": 1983
-  },
-  {
-    "num": 18,
-    "fileName": "scene-18-employees.mp3",
-    "name": "employees",
-    "durationSec": 97.01877551020408,
-    "durationFrames": 2911
-  },
-  {
-    "num": 19,
-    "fileName": "scene-19-movements.mp3",
-    "name": "movements",
-    "durationSec": 57.80897959183673,
-    "durationFrames": 1735
-  },
-  {
-    "num": 20,
-    "fileName": "scene-20-training-modules.mp3",
-    "name": "training-modules",
-    "durationSec": 89.02530612244898,
-    "durationFrames": 2671
-  },
-  {
-    "num": 21,
-    "fileName": "scene-21-training-plans.mp3",
-    "name": "training-plans",
-    "durationSec": 41.2734693877551,
-    "durationFrames": 1239
-  },
-  {
-    "num": 22,
-    "fileName": "scene-22-training-attempts.mp3",
-    "name": "training-attempts",
-    "durationSec": 44.06857142857143,
-    "durationFrames": 1323
-  },
-  {
-    "num": 23,
-    "fileName": "scene-23-arv.mp3",
-    "name": "arv",
-    "durationSec": 29.675102040816327,
-    "durationFrames": 891
-  },
-  {
-    "num": 24,
-    "fileName": "scene-24-utilization.mp3",
-    "name": "utilization",
-    "durationSec": 56.502857142857145,
-    "durationFrames": 1696
-  },
-  {
-    "num": 25,
-    "fileName": "scene-25-manpower-plan.mp3",
-    "name": "manpower-plan",
-    "durationSec": 48.19591836734694,
-    "durationFrames": 1446
-  },
-  {
-    "num": 26,
-    "fileName": "scene-26-employee-skills.mp3",
-    "name": "employee-skills",
-    "durationSec": 36.85877551020408,
-    "durationFrames": 1106
-  },
-  {
-    "num": 27,
-    "fileName": "scene-27-skills-admin.mp3",
-    "name": "skills-admin",
-    "durationSec": 81.55428571428571,
-    "durationFrames": 2447
-  },
-  {
-    "num": 28,
-    "fileName": "scene-28-attendance.mp3",
-    "name": "attendance",
-    "durationSec": 55.90204081632653,
-    "durationFrames": 1678
-  },
-  {
-    "num": 29,
-    "fileName": "scene-29-overtime.mp3",
-    "name": "overtime",
-    "durationSec": 56.05877551020408,
-    "durationFrames": 1682
   },
   {
     "num": 30,
@@ -220,4 +87,4 @@ export const SCENE_DURATIONS: SceneDuration[] = [
   }
 ];
 
-export const TOTAL_FRAMES = 54194;
+export const TOTAL_FRAMES = 23379;
