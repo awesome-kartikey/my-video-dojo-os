@@ -5,8 +5,12 @@ Config.setVideoImageFormat("jpeg");
 Config.setOverwriteOutput(true);
 Config.overrideWebpackConfig(enableTailwind);
 
-// Force Remotion to use your system's Google Chrome
-Config.setBrowserExecutable("C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe");
+// Force Remotion to use your system's Google Chrome locally, but download automatically on GitHub Actions
+if (!process.env.GITHUB_ACTIONS) {
+  Config.setBrowserExecutable("C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe");
+} else {
+  Config.setBrowserExecutable(null);
+}
 
 // Set the OpenGL backend globally for hardware-accelerated frame generation
 Config.setChromiumOpenGlRenderer("angle");
