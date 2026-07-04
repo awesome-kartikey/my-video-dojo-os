@@ -1,17 +1,19 @@
+import React from "react";
 import "./index.css";
 import { Composition } from "remotion";
-import { MyComposition } from "./Composition";
+import { DojoDemo } from "./DojoDemo/DojoDemo";
+import { TOTAL_FRAMES } from "./DojoDemo/durations";
 
 export const RemotionRoot: React.FC = () => {
   return (
     <>
       <Composition
-        id="MyComp"
-        component={MyComposition}
-        durationInFrames={60}
+        id="DojoDemo"
+        component={DojoDemo}
+        durationInFrames={TOTAL_FRAMES}
         fps={30}
-        width={1280}
-        height={720}
+        width={1920}
+        height={1080}
       />
     </>
   );
