@@ -19,6 +19,7 @@ if (!process.env.GITHUB_ACTIONS) {
   Config.setChromiumOpenGlRenderer("swiftshader");
 }
 
+// (Removed invalid Puppeteer timeout config)
 // Override FFmpeg to use NVIDIA's NVENC hardware encoder for final MP4 stitching
 // Config.overrideFfmpegCommand((info) => {
 //   // Extract the arguments array from the provided info object
