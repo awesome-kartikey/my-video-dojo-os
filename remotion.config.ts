@@ -13,7 +13,11 @@ if (!process.env.GITHUB_ACTIONS) {
 }
 
 // Set the OpenGL backend globally for hardware-accelerated frame generation
-Config.setChromiumOpenGlRenderer("angle");
+if (!process.env.GITHUB_ACTIONS) {
+  Config.setChromiumOpenGlRenderer("angle");
+} else {
+  Config.setChromiumOpenGlRenderer("swiftshader");
+}
 
 // Override FFmpeg to use NVIDIA's NVENC hardware encoder for final MP4 stitching
 // Config.overrideFfmpegCommand((info) => {

@@ -29,7 +29,7 @@ jobs:
         run: npm run prebuild
 
       - name: Render Remotion Video
-        run: npx remotion render DojoDemo out/video.mp4
+        run: npx remotion render DojoDemo out/video.mp4 --concurrency=1
 
       - name: Upload Video Artifact
         uses: actions/upload-artifact@v4
